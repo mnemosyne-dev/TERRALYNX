@@ -1,5 +1,5 @@
 import React, { useState, useEffect, useRef } from 'react';
-import { Search, MapPin, X, Loader2, Navigation, Compass, Globe, Crosshair, GraduationCap, Building2, Hospital } from 'lucide-react';
+import { Search, MapPin, X, Loader2, Navigation, Compass, Globe, Crosshair, GraduationCap, Building2, Hospital, Landmark } from 'lucide-react';
 import { apiService } from '../../services/api';
 
 export interface LocationSearchResult {
@@ -17,11 +17,15 @@ interface LocationSearchBarProps {
 }
 
 const PRESET_LOCATIONS = [
-  { name: 'Bhubaneswar', lat: 20.2961, lng: 85.8245, state: 'Odisha' },
-  { name: 'Cuttack', lat: 20.4625, lng: 85.8828, state: 'Odisha' },
-  { name: 'C. V. Raman University', lat: 20.2198, lng: 85.7358, state: 'Bhubaneswar' },
-  { name: 'Puri Coast', lat: 19.8135, lng: 85.8312, state: 'Odisha' },
-  { name: 'AIIMS Bhubaneswar', lat: 20.2312, lng: 85.7766, state: 'Odisha' },
+  { name: 'Bhubaneswar', lat: 20.2961, lng: 85.8245, state: 'Khordha' },
+  { name: 'Cuttack', lat: 20.4625, lng: 85.8828, state: 'Millennium City' },
+  { name: 'Puri Coast', lat: 19.8135, lng: 85.8312, state: 'Puri' },
+  { name: 'Ganjam (Berhampur)', lat: 19.3552, lng: 85.0187, state: 'Ganjam' },
+  { name: 'Balasore', lat: 21.4934, lng: 86.9135, state: 'Balasore' },
+  { name: 'Kendrapara', lat: 20.5015, lng: 86.4225, state: 'Kendrapara' },
+  { name: 'Mayurbhanj', lat: 21.9322, lng: 86.7389, state: 'Baripada' },
+  { name: 'Sambalpur', lat: 21.4669, lng: 83.9812, state: 'Hirakud' },
+  { name: 'C. V. Raman Univ', lat: 20.2198, lng: 85.7358, state: 'CVRGU' },
   { name: 'SCB Medical', lat: 20.4682, lng: 85.8895, state: 'Cuttack' },
   { name: 'CDA Sector 9', lat: 20.47937, lng: 85.82872, state: 'Cuttack' },
 ];
@@ -157,6 +161,8 @@ export const LocationSearchBar: React.FC<LocationSearchBarProps> = ({
 
   const getCategoryIcon = (category: string) => {
     switch (category) {
+      case 'district':
+        return <Landmark className="w-3.5 h-3.5 text-indigo-400" />;
       case 'university':
         return <GraduationCap className="w-3.5 h-3.5 text-amber-400" />;
       case 'hospital':

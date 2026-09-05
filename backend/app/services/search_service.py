@@ -155,25 +155,326 @@ COMPREHENSIVE_GAZETTEER = [
         "keywords": ["nit", "nit rourkela", "nit rkl"]
     },
 
-    # Major Cities & Key Administrative Districts
-    {
-        "title": "Bhubaneswar Capital City",
-        "subtitle": "Bhubaneswar Municipal Corporation, Khordha, Odisha 751001",
-        "category": "city",
-        "category_label": "Capital Metro",
-        "lat": 20.2961,
-        "lng": 85.8245,
-        "keywords": ["bhubaneswar", "bhubaneshwar", "bbsr", "khordha", "smart city bhubaneswar"]
-    },
+    # All 30 Districts of Odisha & Administrative Headquarters
     {
         "title": "Cuttack Millennium City",
         "subtitle": "Cuttack Municipal Corporation (CMC), Cuttack, Odisha 753001",
         "category": "city",
-        "category_label": "Municipal City",
+        "category_label": "District / City",
         "lat": 20.4625,
         "lng": 85.8828,
-        "keywords": ["cuttack", "kataka", "cmc cuttack", "silver city"]
+        "keywords": ["cuttack", "kataka", "cmc cuttack", "silver city", "cuttack district", "dist cuttack"]
     },
+    {
+        "title": "Bhubaneswar Capital City",
+        "subtitle": "Bhubaneswar Municipal Corporation, Khordha, Odisha 751001",
+        "category": "city",
+        "category_label": "State Capital / District",
+        "lat": 20.2961,
+        "lng": 85.8245,
+        "keywords": ["bhubaneswar", "bhubaneshwar", "bbsr", "khordha", "khurda", "smart city bhubaneswar", "khordha district"]
+    },
+    {
+        "title": "Puri Coastal District",
+        "subtitle": "Puri Municipality, High-Surge Vulnerable Coastal District, Odisha 752001",
+        "category": "city",
+        "category_label": "Coastal District",
+        "lat": 19.8135,
+        "lng": 85.8312,
+        "keywords": ["puri", "puri beach", "puri coast", "jagannath puri", "puri district", "dist puri"]
+    },
+    {
+        "title": "Ganjam District (Berhampur / Chhatrapur)",
+        "subtitle": "Chhatrapur / Berhampur Municipal Corp, High Cyclone Risk District, Odisha 760001",
+        "category": "city",
+        "category_label": "South Coastal District",
+        "lat": 19.3552,
+        "lng": 85.0187,
+        "keywords": ["ganjam", "ganjam district", "berhampur", "brahmapur", "chhatrapur", "gopalpur", "dist ganjam"]
+    },
+    {
+        "title": "Balasore District (Baleswar)",
+        "subtitle": "Balasore Municipality, Coastal Cyclone Gateway District, Odisha 756001",
+        "category": "city",
+        "category_label": "North Coastal District",
+        "lat": 21.4934,
+        "lng": 86.9135,
+        "keywords": ["balasore", "baleswar", "chandipur", "balasore district", "dist balasore", "baleswar district"]
+    },
+    {
+        "title": "Bhadrak District",
+        "subtitle": "Bhadrak Municipality, Salandi & Baitarani River Basin, Odisha 756100",
+        "category": "city",
+        "category_label": "Coastal District",
+        "lat": 21.0544,
+        "lng": 86.5008,
+        "keywords": ["bhadrak", "bhadrak district", "dhamra", "dist bhadrak"]
+    },
+    {
+        "title": "Kendrapara District",
+        "subtitle": "Kendrapara Municipality, Bhitarkanika & Delta Floodplain, Odisha 754211",
+        "category": "city",
+        "category_label": "Estuary Coastal District",
+        "lat": 20.5015,
+        "lng": 86.4225,
+        "keywords": ["kendrapara", "kendrapara district", "bhitarkanika", "dist kendrapara", "kendrapara dist"]
+    },
+    {
+        "title": "Jagatsinghpur District (Paradeep)",
+        "subtitle": "Jagatsinghpur / Paradeep Port Area, Super Cyclone Corridor, Odisha 754103",
+        "category": "city",
+        "category_label": "Coastal Port District",
+        "lat": 20.2588,
+        "lng": 86.1685,
+        "keywords": ["jagatsinghpur", "jagatsinghpur district", "paradeep", "paradip", "dist jagatsinghpur"]
+    },
+    {
+        "title": "Jajpur District (Jajpur Town / Panikoili)",
+        "subtitle": "Baitarani Flood Basin & Industrial Corridor, Odisha 755001",
+        "category": "city",
+        "category_label": "Inland Flood District",
+        "lat": 20.8467,
+        "lng": 86.3333,
+        "keywords": ["jajpur", "jajpur district", "panikoili", "vyasanagar", "jajpur road", "dist jajpur"]
+    },
+    {
+        "title": "Mayurbhanj District (Baripada)",
+        "subtitle": "Baripada, Northern Forest Watershed & Flash Flood District, Odisha 757001",
+        "category": "city",
+        "category_label": "North Highland District",
+        "lat": 21.9322,
+        "lng": 86.7389,
+        "keywords": ["mayurbhanj", "mayurbhanj district", "baripada", "similipal", "dist mayurbhanj"]
+    },
+    {
+        "title": "Sambalpur District",
+        "subtitle": "Sambalpur Municipal Corporation, Hirakud Dam Complex, Odisha 768001",
+        "category": "city",
+        "category_label": "Major Dam Basin District",
+        "lat": 21.4669,
+        "lng": 83.9812,
+        "keywords": ["sambalpur", "sambalpur district", "hirakud", "burla", "dist sambalpur"]
+    },
+    {
+        "title": "Sundargarh District (Rourkela)",
+        "subtitle": "Rourkela Steel City / Sundargarh, Northern Brahmani Basin, Odisha 770001",
+        "category": "city",
+        "category_label": "Industrial North District",
+        "lat": 22.1167,
+        "lng": 84.0333,
+        "keywords": ["sundargarh", "sundergarh", "rourkela", "sundargarh district", "dist sundargarh"]
+    },
+    {
+        "title": "Keonjhar District (Kendujhar)",
+        "subtitle": "Kendujhar Municipality, Baitarani River Headwaters, Odisha 758001",
+        "category": "city",
+        "category_label": "Highland Watershed District",
+        "lat": 21.6289,
+        "lng": 85.5817,
+        "keywords": ["keonjhar", "kendujhar", "keonjhar district", "dist keonjhar"]
+    },
+    {
+        "title": "Angul District",
+        "subtitle": "Angul Municipality, Central Mahanadi & Brahmani Belt, Odisha 759122",
+        "category": "city",
+        "category_label": "Central Industrial District",
+        "lat": 20.8400,
+        "lng": 85.1000,
+        "keywords": ["angul", "angul district", "talcher", "dist angul"]
+    },
+    {
+        "title": "Dhenkanal District",
+        "subtitle": "Dhenkanal Municipality, Central Riverine Belt, Odisha 759001",
+        "category": "city",
+        "category_label": "Central Basin District",
+        "lat": 20.6667,
+        "lng": 85.6000,
+        "keywords": ["dhenkanal", "dhenkanal district", "dist dhenkanal"]
+    },
+    {
+        "title": "Nayagarh District",
+        "subtitle": "Nayagarh Municipality, South Central Hilly Watershed, Odisha 752069",
+        "category": "city",
+        "category_label": "Central Watershed District",
+        "lat": 20.1250,
+        "lng": 85.1060,
+        "keywords": ["nayagarh", "nayagarh district", "dist nayagarh"]
+    },
+    {
+        "title": "Gajapati District (Paralakhemundi)",
+        "subtitle": "Paralakhemundi, Vansadhara River Basin & Mountain Zone, Odisha 761200",
+        "category": "city",
+        "category_label": "Southern Border District",
+        "lat": 18.7750,
+        "lng": 84.0900,
+        "keywords": ["gajapati", "gajapati district", "paralakhemundi", "dist gajapati"]
+    },
+    {
+        "title": "Rayagada District",
+        "subtitle": "Rayagada Municipality, Nagavali & Vansadhara Flash Flood Zone, Odisha 765001",
+        "category": "city",
+        "category_label": "Southern Highland District",
+        "lat": 19.1717,
+        "lng": 83.4161,
+        "keywords": ["rayagada", "rayagada district", "gunupur", "dist rayagada"]
+    },
+    {
+        "title": "Koraput District (Jeypore)",
+        "subtitle": "Koraput / Jeypore, Eastern Ghats Plateau District, Odisha 764020",
+        "category": "city",
+        "category_label": "Southwest Highland District",
+        "lat": 18.8135,
+        "lng": 82.7118,
+        "keywords": ["koraput", "koraput district", "jeypore", "dist koraput"]
+    },
+    {
+        "title": "Malkangiri District",
+        "subtitle": "Malkangiri Municipality, Sabari River Basin Vulnerable Border, Odisha 764045",
+        "category": "city",
+        "category_label": "Southern Floodplain District",
+        "lat": 18.3436,
+        "lng": 81.9028,
+        "keywords": ["malkangiri", "malkangiri district", "dist malkangiri", "balimela"]
+    },
+    {
+        "title": "Nabarangpur District",
+        "subtitle": "Nabarangpur Municipality, Indravati Basin Agro-District, Odisha 764059",
+        "category": "city",
+        "category_label": "Southern Agro District",
+        "lat": 19.2319,
+        "lng": 82.5511,
+        "keywords": ["nabarangpur", "nabarangpur district", "nowrangpur", "dist nabarangpur"]
+    },
+    {
+        "title": "Kalahandi District (Bhawanipatna)",
+        "subtitle": "Bhawanipatna Municipality, Tel River Basin, Odisha 766001",
+        "category": "city",
+        "category_label": "Western Valley District",
+        "lat": 19.9075,
+        "lng": 83.1644,
+        "keywords": ["kalahandi", "kalahandi district", "bhawanipatna", "dist kalahandi"]
+    },
+    {
+        "title": "Nuapada District",
+        "subtitle": "Nuapada Municipality, Jonk River Western Border District, Odisha 766105",
+        "category": "city",
+        "category_label": "Western Border District",
+        "lat": 20.8333,
+        "lng": 82.5333,
+        "keywords": ["nuapada", "nuapada district", "khariar", "dist nuapada"]
+    },
+    {
+        "title": "Bolangir District (Balangir)",
+        "subtitle": "Balangir Municipality, Western Mahanadi Tributary Agro-Belt, Odisha 767001",
+        "category": "city",
+        "category_label": "Western Agro District",
+        "lat": 20.7107,
+        "lng": 83.4855,
+        "keywords": ["bolangir", "balangir", "bolangir district", "dist bolangir"]
+    },
+    {
+        "title": "Subarnapur District (Sonepur)",
+        "subtitle": "Sonepur, Mahanadi & Tel River Confluence Delta, Odisha 767017",
+        "category": "city",
+        "category_label": "River Confluence District",
+        "lat": 20.8417,
+        "lng": 83.9167,
+        "keywords": ["subarnapur", "sonepur", "subarnapur district", "sonepur district", "dist subarnapur"]
+    },
+    {
+        "title": "Boudh District (Baudh)",
+        "subtitle": "Baudh Municipality, Central Mahanadi Valley District, Odisha 762014",
+        "category": "city",
+        "category_label": "Central Riverine District",
+        "lat": 20.8350,
+        "lng": 84.3250,
+        "keywords": ["boudh", "baudh", "boudh district", "dist boudh"]
+    },
+    {
+        "title": "Kandhamal District (Phulbani)",
+        "subtitle": "Phulbani, Central Highland Hill Range & Flash Flood Zone, Odisha 762001",
+        "category": "city",
+        "category_label": "Highland Hill District",
+        "lat": 20.4700,
+        "lng": 84.2300,
+        "keywords": ["kandhamal", "kandhamal district", "phulbani", "daringbadi", "dist kandhamal"]
+    },
+    {
+        "title": "Bargarh District",
+        "subtitle": "Bargarh Municipality, Hirakud Command Agro-District, Odisha 768028",
+        "category": "city",
+        "category_label": "Western Command District",
+        "lat": 21.3333,
+        "lng": 83.6167,
+        "keywords": ["bargarh", "bargarh district", "dist bargarh", "baragarh"]
+    },
+    {
+        "title": "Jharsuguda District",
+        "subtitle": "Jharsuguda Municipal Corporation, Ib River Valley Industrial Hub, Odisha 768201",
+        "category": "city",
+        "category_label": "Industrial West District",
+        "lat": 21.8554,
+        "lng": 84.0086,
+        "keywords": ["jharsuguda", "jharsuguda district", "dist jharsuguda"]
+    },
+    {
+        "title": "Deogarh District (Debagarh)",
+        "subtitle": "Debagarh Municipality, Northern Brahmani Basin, Odisha 768108",
+        "category": "city",
+        "category_label": "North Central District",
+        "lat": 21.5333,
+        "lng": 84.7333,
+        "keywords": ["deogarh", "debagarh", "deogarh district", "dist deogarh"]
+    },
+
+    # Major Coastal Disaster Hubs across Eastern & Southern India
+    {
+        "title": "Visakhapatnam Metropolitan Port",
+        "subtitle": "Greater Visakhapatnam Municipal Corporation (GVMC), Andhra Pradesh",
+        "category": "city",
+        "category_label": "Coastal Apex Port",
+        "lat": 17.6868,
+        "lng": 83.2185,
+        "keywords": ["visakhapatnam", "vizag", "vizag port", "gvmc"]
+    },
+    {
+        "title": "East Godavari (Kakinada Port)",
+        "subtitle": "Kakinada, Godavari Delta Lowland Surge Corridor, Andhra Pradesh",
+        "category": "city",
+        "category_label": "Coastal Delta District",
+        "lat": 16.9891,
+        "lng": 82.2475,
+        "keywords": ["kakinada", "east godavari", "godavari delta"]
+    },
+    {
+        "title": "Srikakulam Coastal District",
+        "subtitle": "Srikakulam Municipality, Vamsadhara Basin Surge Corridor, Andhra Pradesh",
+        "category": "city",
+        "category_label": "Coastal Surge District",
+        "lat": 18.2969,
+        "lng": 83.8967,
+        "keywords": ["srikakulam", "srikakulam district", "bhavanapadu"]
+    },
+    {
+        "title": "South 24 Parganas (Sundarbans)",
+        "subtitle": "Sundarbans Estuary Delta High Surge Risk District, West Bengal",
+        "category": "city",
+        "category_label": "Estuary Delta District",
+        "lat": 22.1452,
+        "lng": 88.5430,
+        "keywords": ["south 24 parganas", "sundarbans", "kakdwip", "sagar island"]
+    },
+    {
+        "title": "East Medinipur (Digha / Haldia)",
+        "subtitle": "Digha Coastal Beach & Haldia Port Industrial Complex, West Bengal",
+        "category": "city",
+        "category_label": "Coastal Surge District",
+        "lat": 21.9300,
+        "lng": 87.7700,
+        "keywords": ["digha", "haldia", "east medinipur", "purba medinipur"]
+    },
+
+    # Local Municipal Sectors & Suburbs
     {
         "title": "CDA Sector 9, Cuttack",
         "subtitle": "Bidanasi Colony, CDA Sector 9, Cuttack, Odisha 753014",
@@ -211,40 +512,31 @@ COMPREHENSIVE_GAZETTEER = [
         "keywords": ["cda sector 11", "cda sec 11", "cda 11"]
     },
     {
-        "title": "Puri Coastal City",
-        "subtitle": "Puri Municipality, Puri District, Odisha 752001",
-        "category": "city",
-        "category_label": "Coastal City",
-        "lat": 19.8135,
-        "lng": 85.8312,
-        "keywords": ["puri", "puri beach", "puri coast", "jagannath puri"]
+        "title": "CDA Sector 7, Cuttack",
+        "subtitle": "CDA Sector 7, Cuttack, Odisha 753014",
+        "category": "suburb",
+        "category_label": "Municipal Sector",
+        "lat": 20.4820,
+        "lng": 85.8360,
+        "keywords": ["cda sector 7", "cda sec 7", "cda 7"]
     },
     {
-        "title": "Paradeep Port Area",
-        "subtitle": "Paradeep Municipality, Jagatsinghpur, Odisha 754142",
-        "category": "city",
-        "category_label": "Port City",
-        "lat": 20.3160,
-        "lng": 86.6110,
-        "keywords": ["paradeep", "paradip", "paradeep port"]
+        "title": "CDA Sector 8, Cuttack",
+        "subtitle": "CDA Sector 8, Cuttack, Odisha 753014",
+        "category": "suburb",
+        "category_label": "Municipal Sector",
+        "lat": 20.4860,
+        "lng": 85.8320,
+        "keywords": ["cda sector 8", "cda sec 8", "cda 8"]
     },
     {
-        "title": "Balasore Town",
-        "subtitle": "Balasore Municipality, Balasore, Odisha 756001",
-        "category": "city",
-        "category_label": "Coastal District",
-        "lat": 21.4934,
-        "lng": 86.9135,
-        "keywords": ["balasore", "baleswar", "chandipur"]
-    },
-    {
-        "title": "Berhampur Silk City",
-        "subtitle": "Berhampur Municipal Corporation (BeMC), Ganjam, Odisha 760001",
-        "category": "city",
-        "category_label": "Municipal City",
-        "lat": 19.3150,
-        "lng": 84.7941,
-        "keywords": ["berhampur", "brahmapur", "ganjam", "gopalpur"]
+        "title": "Bidanasi Embankment, Cuttack",
+        "subtitle": "Bidanasi Old Village & Mahanadi Embankment Lowlands, Cuttack 753014",
+        "category": "suburb",
+        "category_label": "River Embankment",
+        "lat": 20.4710,
+        "lng": 85.8230,
+        "keywords": ["bidanasi", "bidanasi cuttack", "bidanasi embankment"]
     }
 ]
 
@@ -253,6 +545,9 @@ def clean_search_term(term: str) -> str:
         return ""
     t = term.lower().strip()
     t = re.sub(r'[\.\,\-\_\/\(\)\'\"\#]', ' ', t)
+    t = re.sub(r'\s+', ' ', t).strip()
+    # Common administrative terms to normalize
+    t = re.sub(r'\b(district|dist|headquarters|hq|block|tehsil)\b', '', t)
     t = re.sub(r'\s+', ' ', t).strip()
     # Common phonetic and vernacular variants
     t = t.replace('bhubaneshwar', 'bhubaneswar')
@@ -304,7 +599,7 @@ def search_local_gazetteer(query: str) -> List[Dict[str, Any]]:
             scored.append((s, item))
             
     scored.sort(key=lambda x: -x[0])
-    return [item for score, item in scored[:6]]
+    return [item for score, item in scored[:10]]
 
 async def search_photon_osm_live(query: str) -> List[Dict[str, Any]]:
     cq = clean_search_term(query)
@@ -383,4 +678,4 @@ async def search_locations(query: str) -> List[Dict[str, Any]]:
             seen.add(key)
             combined.append(p)
             
-    return combined[:8]
+    return combined[:12]

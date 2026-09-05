@@ -21,10 +21,18 @@ export const Header: React.FC<HeaderProps> = ({
 }) => {
   const [time, setTime] = useState<string>('');
 
-  useEffect(() => {
+useEffect(() => {
     const updateTime = () => {
       const now = new Date();
-      setTime(now.toUTCString().slice(17, 25) + ' UTC');
+      setTime(
+        now.toLocaleTimeString('en-IN', {
+          timeZone: 'Asia/Kolkata',
+          hour12: false,
+          hour: '2-digit',
+          minute: '2-digit',
+          second: '2-digit'
+        }) + ' IST'
+      );
     };
     updateTime();
     const interval = setInterval(updateTime, 1000);
